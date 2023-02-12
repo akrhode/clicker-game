@@ -5,7 +5,7 @@ function giessen() {
     anzahlGegossen = anzahlGegossen + 1;
     document.getElementById("bereits-gegossen").innerHTML = anzahlGegossen;
   } else {
-    alert("Deine Pflanze blüht. Du hast gewonnen!");
+    alert("The sunflower is blooming. You won!");
   }
 
   if (anzahlGegossen == 3) {
